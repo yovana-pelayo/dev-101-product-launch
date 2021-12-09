@@ -127,7 +127,7 @@ button {
   /* Bright color for Call To Action (CTA) */
   background: var(--sinopia);
   color: var(--white);
-  border: 0;
+  border: 10;
   padding: 20px;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.5rem;

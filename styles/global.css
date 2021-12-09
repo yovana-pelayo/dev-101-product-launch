@@ -3,9 +3,36 @@
 :root {
   /* css variables with theme colors,
     names have to start with "--" */
-  --color-1: #b9af9e;
+    --nomad: #b9af9e;
+    --zeus: #221d14;
+    --irish-coffee: #604124;
+    --potters-clay: #0d5f2c;
+    --sinopia: #c25223ff;
+    --white: white;
 }
 
 body {
-    
+  background: var(--potters-clay);
+  /* these become the default font settings for the reset of the page */
+  font-family: 'Patua One', sans-serif;
+  color: var(--zeus);
+}
+h1 {
+  
+}
+input {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0%;
+  font-size: 1em;                     
+}
+button {
+  background: wheat;
+  color:aliceblue;
+  border: 0;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 1.rem;
+
 }
